@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import logging
 
+print("DB_HOST:", os.getenv('DB_HOST'))
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
