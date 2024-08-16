@@ -1,1 +1,1 @@
-web: gunicorn healthcare.wsgi --log-file -
+web: gunicorn healthcare_project.wsgi:application --bind 0.0.0.0:$PORT
