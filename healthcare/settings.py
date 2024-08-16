@@ -10,7 +10,7 @@ SECRET_KEY = 'your-secret-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['your-render-app.onrender.com']
+ALLOWED_HOSTS = ALLOWED_HOSTS = ['your-render-app.onrender.com', '127.0.0.1', 'localhost']
 
 # Application definition
 INSTALLED_APPS = [
