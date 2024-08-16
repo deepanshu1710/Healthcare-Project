@@ -80,11 +80,8 @@ DATABASES = {
         'NAME': os.getenv('DB_NAME'),
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': '',  # Leave HOST empty to use the socket
-        'PORT': '',  # Leave PORT empty to use the socket
-        'OPTIONS': {
-            'unix_socket': '/run/mysqld/mysqld.sock',
-        },
+        'HOST': 'DB_HOST',  # Set your cloud DB host
+        'PORT': '3306',  # Default MySQL port
     }
 }
 
