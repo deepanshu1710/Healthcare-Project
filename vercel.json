@@ -5,11 +5,7 @@
       "src": "healthcare/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "50mb",
-        "includeFiles": [
-          "requirements.txt",
-          "healthcare/**"
-        ]
+        "maxLambdaSize": "50mb"
       }
     }
   ],
