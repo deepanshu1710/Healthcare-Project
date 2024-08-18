@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "Healthcare-Project/wsgi.py",
+      "src": "Healthcare-Project/healthcare/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Healthcare-Project/wsgi.py"
+      "dest": "Healthcare-Project/healthcare/wsgi.py"
     }
   ]
 }
