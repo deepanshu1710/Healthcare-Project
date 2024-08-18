@@ -2,6 +2,9 @@ import os
 from pathlib import Path
 import logging
 import dj_database_url
+import pymysql
+
+pymysql.install_as_MySQLdb()
 
 print("DB_HOST:", os.getenv('DB_HOST'))
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
