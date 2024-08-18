@@ -2,6 +2,6 @@
   "version": 2,
   "builds": [],
   "routes": [
-    { "src": "/(.*)", "dest": "/" }
+    { "src": "/(.*)", "dest": "Healthcare-Project/healthcare/wsgi.py" }
   ]
 }
