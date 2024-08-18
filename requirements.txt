@@ -29,3 +29,4 @@ urllib3==2.2.2
 whitenoise==6.7.0
 dj-database-url==2.2.0
 PyMySQL==1.1.1
+mysql==0.0.3
