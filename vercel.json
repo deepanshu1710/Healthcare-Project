@@ -1,15 +1,15 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "Healthcare-Project/healthcare/wsgi.py",
-      "use": "@vercel/python"
+      "src": "manage.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb" }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Healthcare-Project/healthcare/wsgi.py"
+      "dest": "/manage.py"
     }
   ]
 }
